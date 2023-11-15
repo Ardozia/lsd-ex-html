@@ -16,6 +16,7 @@
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -31,29 +32,46 @@
     <header>
     </header>
     <main>
-      <div>
-        <h1>Pardela-Balear</h1>
-        <h2><em>Europa</em></h2>
+      <div class="section-1">
+        <div>
+          <img id="image" src="img/pardela-balear.jpg" />
+        </div>
+        <div>
+          <h1>Pardela-Balear</h1>
+          <h2><em>Europa</em></h2>
+
+
+          <h3>Valor: <strike>20€</strike> 25€</h3>
+          <form>
+            <button>SALVAR</button>
+          </form>
+          <p>
+            Considerada a ave marinha mais ameaçada da Europa, a pardela-balear tem o dorso castanho-acinzentado e o
+            ventre branco-acastanhado, mas este contraste é menos marcado do que noutras espécies. Tem um aspeto
+            “barrigudo” e um voo rápido, com um bater de asas energético, que vai alternando com momentos de voo
+            planado. Apesar de pequena, é muito ágil e capaz de enfrentar condições climatéricas adversas.
+            Como o seu nome indica, esta espécie nidifica nas Ilhas Baleares, em Espanha, atravessando o Estreito de
+            Gibraltar em direção ao Atlântico após a época de reprodução. Mesmo durante os movimentos de migração, não
+            se afasta muito da costa. Faz o ninho em cavidades de falésias costeiras.
+          </p>
+        </div>
       </div>
-      <div>
-        <img id="image" src="img/pardela-balear.jpg" />
-        <h3>Valor: <strike>20€</strike> 25€</h3>
-        <form>
-          <button>Salvar</button>
-        </form>
-        <p>
-          Considerada a ave marinha mais ameaçada da Europa, a pardela-balear tem o dorso castanho-acinzentado e o ventre branco-acastanhado, mas este contraste é menos marcado do que noutras espécies. Tem um aspeto “barrigudo” e um voo rápido, com um bater de asas energético, que vai alternando com momentos de voo planado. Apesar de pequena, é muito ágil e capaz de enfrentar condições climatéricas adversas.
-          Como o seu nome indica, esta espécie nidifica nas Ilhas Baleares, em Espanha, atravessando o Estreito de Gibraltar em direção ao Atlântico após a época de reprodução. Mesmo durante os movimentos de migração, não se afasta muito da costa. Faz o ninho em cavidades de falésias costeiras.
-        </p>
-      </div>
-      <hr />
+
       <div>
         <h3>Últimos comentários:</h3>
         <ul>
-          <li>José (<strong>4</strong>)</li>
-        <p>A pardela-balear é considerada a ave marinha mais ameaçada da Europa, e a costa portuguesa é a zona de invernada mais importante para esta espécie, a nível mundial.</p>
-          <li>Silva (<strong>4.3</strong>)</li>
-          <li>Afonso (<strong>3</strong>)</li>
+          <li>
+            <p class="user"><span>José</span><strong><i class="fa fa-star"></i>4</strong></p>
+            <p>A pardela-balear é considerada a ave marinha mais ameaçada da Europa, e a costa portuguesa é a zona de invernada mais importante para esta espécie, a nível mundial.</p>
+          </li>
+          <hr />
+          <li>
+            <p class="user"><span>Silva</span><strong><i class="fa fa-star"></i>4.3</strong></p>
+          </li>
+          <hr />
+          <li>          
+            <p class="user"><span>Afonso</span><strong><i class="fa fa-star"></i>3</strong></p>
+          </li>
         </ul>
         <h3>Também poderá gostar de:</h3>
         <ol>
